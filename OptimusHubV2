@@ -1,0 +1,663 @@
+--All fucking credit goes to SolarPlayz for making the script
+-- Unobsfucated cuz it lags too much when obfs
+-- dont fucking steal or claim this script peasants
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0.533333, 0.533333, 0.533333)
+Frame.Position = UDim2.new(0.168603495, 0, 0.215158805, 0)
+Frame.Size = UDim2.new(0, 619, 0, 328)
+
+UICorner.Parent = Frame
+UICorner.CornerRadius = UDim.new(0, 15)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.new(0.254902, 0.254902, 0.254902)
+TextButton.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton.Position = UDim2.new(0.0145083228, 0, 0.250914782, 0)
+TextButton.Size = UDim2.new(0, 97, 0, 54)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "Toggle Fly"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+
+UICorner_2.Parent = TextButton
+UICorner_2.CornerRadius = UDim.new(0, 15)
+
+ImageLabel.Parent = TextButton
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-0.0927835032, 0, -1.37037039, 0)
+ImageLabel.Size = UDim2.new(0, 619, 0, 327)
+ImageLabel.Image = "rbxassetid://14395291640"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextLabel.Position = UDim2.new(0.143780291, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 530, 0, 35)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = " Optimus Hub v3 [Universal]"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+UICorner_3.Parent = TextLabel
+UICorner_3.CornerRadius = UDim.new(0, 15)
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_2.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton_2.Position = UDim2.new(0.197060823, 0, 0.389467567, 0)
+TextButton_2.Size = UDim2.new(0, 150, 0, 64)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "Toggle NoClip"
+TextButton_2.TextColor3 = Color3.new(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14
+TextButton_2.TextWrapped = true
+
+UICorner_4.Parent = TextButton_2
+UICorner_4.CornerRadius = UDim.new(0, 15)
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_3.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton_3.Position = UDim2.new(0.197515041, 0, 0.153353825, 0)
+TextButton_3.Size = UDim2.new(0, 150, 0, 64)
+TextButton_3.Font = Enum.Font.FredokaOne
+TextButton_3.Text = "Toggle GodMode"
+TextButton_3.TextColor3 = Color3.new(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14
+TextButton_3.TextWrapped = true
+
+UICorner_5.Parent = TextButton_3
+UICorner_5.CornerRadius = UDim.new(0, 15)
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_4.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton_4.Position = UDim2.new(0.0160600841, 0, 0.652666986, 0)
+TextButton_4.Size = UDim2.new(0, 96, 0, 54)
+TextButton_4.Font = Enum.Font.FredokaOne
+TextButton_4.Text = "Toggle Speed"
+TextButton_4.TextColor3 = Color3.new(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14
+TextButton_4.TextWrapped = true
+
+UICorner_6.Parent = TextButton_4
+UICorner_6.CornerRadius = UDim.new(0, 15)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextLabel_2.Position = UDim2.new(0.457675338, 0, 0.373890013, 0)
+TextLabel_2.Size = UDim2.new(0, 215, 0, 91)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "AntiCheat Bypass : Enabled"
+TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+UICorner_7.Parent = TextLabel_2
+UICorner_7.CornerRadius = UDim.new(0, 15)
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextLabel_3.Position = UDim2.new(0.723652065, 0, 0.179177999, 0)
+TextLabel_3.Size = UDim2.new(0, 162, 0, 47)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "Last Updated: 5/8/23"
+TextLabel_3.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+
+UICorner_8.Parent = TextLabel_3
+UICorner_8.CornerRadius = UDim.new(0, 15)
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_5.Position = UDim2.new(0, 536, 0, 136)
+TextButton_5.Size = UDim2.new(0, 39, 0, 43)
+TextButton_5.Font = Enum.Font.FredokaOne
+TextButton_5.Text = "R"
+TextButton_5.TextColor3 = Color3.new(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextWrapped = true
+
+UICorner_9.Parent = TextButton_5
+UICorner_9.CornerRadius = UDim.new(0, 15)
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_6.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton_6.Position = UDim2.new(0.0132932402, 0, 0.447394311, 0)
+TextButton_6.Size = UDim2.new(0, 97, 0, 54)
+TextButton_6.Font = Enum.Font.FredokaOne
+TextButton_6.Text = "Toggle Jump"
+TextButton_6.TextColor3 = Color3.new(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14
+TextButton_6.TextWrapped = true
+
+UICorner_10.Parent = TextButton_6
+UICorner_10.CornerRadius = UDim.new(0, 15)
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_7.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton_7.Position = UDim2.new(0.195845708, 0, 0.650686204, 0)
+TextButton_7.Size = UDim2.new(0, 150, 0, 64)
+TextButton_7.Font = Enum.Font.FredokaOne
+TextButton_7.Text = "Toggle Invisibility"
+TextButton_7.TextColor3 = Color3.new(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14
+TextButton_7.TextWrapped = true
+
+UICorner_11.Parent = TextButton_7
+UICorner_11.CornerRadius = UDim.new(0, 15)
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextButton_8.BorderColor3 = Color3.new(0.258824, 0.403922, 0.505882)
+TextButton_8.Position = UDim2.new(0.458216667, 0, 0.15335381, 0)
+TextButton_8.Size = UDim2.new(0, 151, 0, 64)
+TextButton_8.Font = Enum.Font.FredokaOne
+TextButton_8.Text = "Troll Players"
+TextButton_8.TextColor3 = Color3.new(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14
+TextButton_8.TextWrapped = true
+
+UICorner_12.Parent = TextButton_8
+UICorner_12.CornerRadius = UDim.new(0, 15)
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextLabel_4.Position = UDim2.new(0.612137854, 0, 0.897324443, 0)
+TextLabel_4.Size = UDim2.new(0, 221, 0, 33)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "SolarPlayz"
+TextLabel_4.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+
+UICorner_13.Parent = TextLabel_4
+UICorner_13.CornerRadius = UDim.new(0, 15)
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.new(0.392157, 0, 0.588235)
+TextLabel_5.Position = UDim2.new(-0.00161550893, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 113, 0, 67)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "📜"
+TextLabel_5.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+
+UICorner_14.Parent = TextLabel_5
+UICorner_14.CornerRadius = UDim.new(0, 15)
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.new(0.309804, 0, 0.462745)
+TextButton_9.Position = UDim2.new(0, 575, 0, 4)
+TextButton_9.Size = UDim2.new(0, 35, 0, 25)
+TextButton_9.Font = Enum.Font.FredokaOne
+TextButton_9.Text = "-"
+TextButton_9.TextColor3 = Color3.new(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextWrapped = true
+
+UICorner_15.Parent = TextButton_9
+UICorner_15.CornerRadius = UDim.new(0, 15)
+
+-- Scripts
+
+local function OCQY_fake_script() -- Frame.GuiDrag 
+	local script = Instance.new('LocalScript', Frame)
+
+	local 	Frame = script.Parent.Parent.Frame
+	
+	Frame.Draggable = true
+	Frame.Active = true
+	
+	
+	
+end
+coroutine.wrap(OCQY_fake_script)()
+local function YDVJD_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local keys = {
+		LeftShift = false,
+	}
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key == "0" then
+			keys.LeftShift = true
+		end
+	end)
+	game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key)
+		if key == "0" then
+			keys.LeftShift = false
+		end
+	end)
+	local hack = false
+	script.Parent.MouseButton1Click:Connect(function()
+		hack = not hack
+		if hack then
+			script.Parent.Text = "Fly: on"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,0)
+			local humanoid = nil
+			while hack do
+				local fps = game["Run Service"].RenderStepped:Wait()
+				if not humanoid or not humanoid.Parent or not humanoid.Parent.Parent then
+					if game.Players.LocalPlayer.Character then
+						if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+							humanoid = game.Players.LocalPlayer.Character.Humanoid
+							humanoid.PlatformStand = true
+						end
+					end
+				else
+					humanoid.PlatformStand = true
+					if humanoid.RootPart then
+						if humanoid.RootPart:FindFirstChild("NoGravity") then
+							humanoid.RootPart.NoGravity.Force = Vector3.new(0,workspace.Gravity*humanoid.RootPart.AssemblyMass,0)
+						else
+							local no = Instance.new("BodyForce",humanoid.RootPart)
+							no.Name = "NoGravity"
+							no.Force = Vector3.new(0,workspace.Gravity*humanoid.RootPart.AssemblyMass,0)
+						end
+						local vel = humanoid.MoveDirection*humanoid.WalkSpeed
+						if humanoid.Jump then
+							vel = vel+Vector3.new(0,humanoid.WalkSpeed,0)
+						end
+						if keys.LeftShift then
+							vel = vel+Vector3.new(0,-humanoid.WalkSpeed,0)
+						end
+						humanoid.RootPart.Velocity = ((humanoid.RootPart.Velocity-vel)*(0.75^(30/(1/fps))))+vel
+					end
+				end
+			end
+		else
+			script.Parent.Text = "Fly: off"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,0)
+			game["Run Service"].RenderStepped:Wait()
+			game["Run Service"].RenderStepped:Wait()
+			if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+				game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+				if game.Players.LocalPlayer.Character.Humanoid.RootPart and game.Players.LocalPlayer.Character.Humanoid.RootPart:FindFirstChild("NoGravity") then
+					game.Players.LocalPlayer.Character.Humanoid.RootPart.NoGravity:Destroy()
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(YDVJD_fake_script)()
+local function ZDIJQGN_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local keys = {
+		LeftShift = false,
+	}
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key == "0" then
+			keys.LeftShift = true
+		end
+	end)
+	game.Players.LocalPlayer:GetMouse().KeyUp:Connect(function(key)
+		if key == "0" then
+			keys.LeftShift = false
+		end
+	end)
+	local hack = false
+	script.Parent.MouseButton1Click:Connect(function()
+		hack = not hack
+		if hack then
+			script.Parent.Text = "Noclip: on"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,0)
+			local humanoid = nil
+			while hack do
+				local fps = game["Run Service"].RenderStepped:Wait()
+				if not humanoid or not humanoid.Parent or not humanoid.Parent.Parent then
+					if game.Players.LocalPlayer.Character then
+						if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
+							humanoid = game.Players.LocalPlayer.Character.Humanoid
+							if humanoid.RootPart then
+								humanoid.RootPart.Anchored = true
+							end
+						end
+					end
+				else
+					if humanoid.RootPart then
+						humanoid.RootPart.Anchored = true
+						local vel = humanoid.MoveDirection*humanoid.WalkSpeed
+						if humanoid.Jump then
+							vel = vel+Vector3.new(0,humanoid.WalkSpeed,0)
+						end
+						if keys.LeftShift then
+							vel = vel+Vector3.new(0,-humanoid.WalkSpeed,0)
+						end
+						humanoid.RootPart.Velocity = ((humanoid.RootPart.Velocity-vel)*(0.75^(30/(1/fps))))+vel
+						humanoid.RootPart.CFrame = (humanoid.RootPart.CFrame+(humanoid.RootPart.Velocity*fps))*CFrame.Angles(humanoid.RootPart.RotVelocity.X*fps,humanoid.RootPart.RotVelocity.Y*fps,humanoid.RootPart.RotVelocity.Z*fps)
+					end
+				end
+			end
+		else
+			script.Parent.Text = "Noclip: off"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,0)
+			game["Run Service"].RenderStepped:Wait()
+			game["Run Service"].RenderStepped:Wait()
+			if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") and game.Players.LocalPlayer.Character.Humanoid.RootPart then
+				game.Players.LocalPlayer.Character.Humanoid.RootPart.Anchored = false
+			end
+		end
+	end)
+end
+coroutine.wrap(ZDIJQGN_fake_script)()
+local function HJNV_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	-- Get the TextButton
+	local button = script.parent
+	
+	-- Function to enable god mode
+	local function enableGodMode(player)
+		-- Get the character and set invincibility
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		humanoid.MaxHealth = math.huge
+		humanoid.Health = math.huge
+	end
+	
+	-- Function to disable god mode
+	local function disableGodMode(player)
+		-- Get the character and disable invincibility
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+		humanoid.MaxHealth = 100
+		humanoid.Health = 100
+	end
+	
+	-- Function to handle button click
+	local function onButtonClicked()
+		-- Get the local player
+		local player = game.Players.LocalPlayer
+	
+		-- Check if the player is already in god mode
+		local character = player.Character
+		if character then
+			local humanoid = character:FindFirstChild("Humanoid")
+			if humanoid and humanoid.MaxHealth == math.huge then
+				-- Disable god mode
+				disableGodMode(player)
+				return
+			end
+		end
+	
+		-- Enable god mode
+		enableGodMode(player)
+	end
+	
+	-- Bind the button click event
+	button.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(HJNV_fake_script)()
+local function TELAFFT_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	-- Get the TextButton
+	local button = script.Parent
+	
+	-- Store the default walk speed
+	local defaultWalkSpeed = 16
+	
+	-- Function to set the player's walk speed
+	local function setWalkSpeed(player, speed)
+		-- Get the character and humanoid
+		local character = player.Character
+		local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+	
+		-- Check if the character and humanoid exist
+		if humanoid then
+			-- Set the walk speed
+			humanoid.WalkSpeed = speed
+		end
+	end
+	
+	-- Function to handle button click
+	local function onButtonClicked()
+		-- Get the local player
+		local player = game.Players.LocalPlayer
+	
+		-- Check if the player's current walk speed is the default speed
+		if player.Character then
+			local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+			if humanoid and humanoid.WalkSpeed == defaultWalkSpeed then
+				-- Set the walk speed to 50
+				setWalkSpeed(player, 50)
+			else
+				-- Set the walk speed to the default value
+				setWalkSpeed(player, defaultWalkSpeed)
+			end
+		end
+	end
+	
+	-- Bind the button click event
+	button.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(TELAFFT_fake_script)()
+local function IZXNREV_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	-- Get the TextButton
+	local button = script.Parent
+	
+	-- Function to kill the character
+	local function killCharacter(player)
+		-- Check if the player has a character
+		local character = player.Character
+		if character then
+			-- Kill the character
+			local humanoid = character:FindFirstChild("Humanoid")
+			if humanoid then
+				humanoid.Health = 0
+			end
+		end
+	end
+	
+	-- Function to handle button click
+	local function onButtonClicked()
+		-- Get the local player
+		local player = game.Players.LocalPlayer
+	
+		-- Kill the player's character
+		killCharacter(player)
+	end
+	
+	-- Bind the button click event
+	button.MouseButton1Click:Connect(onButtonClicked)
+	
+end
+coroutine.wrap(IZXNREV_fake_script)()
+local function VKMWPI_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local jumpButton = script.Parent -- Assuming the GUI button is a child of the script
+	
+	local defaultJumpPower = humanoid.JumpPower -- Store the default jump power
+	local increasedJumpPower = 200 -- Set the desired increased jump power
+	
+	local function onJumpButtonClicked()
+		if humanoid.JumpPower == defaultJumpPower then
+			humanoid.JumpPower = increasedJumpPower -- Set jump power to increased value
+		else
+			humanoid.JumpPower = defaultJumpPower -- Set jump power back to default value
+		end
+	end
+	
+	jumpButton.Activated:Connect(onJumpButtonClicked)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(VKMWPI_fake_script)()
+local function DJWF_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	
+	local button = script.Parent -- Assuming the button is a child of the script
+	
+	local humanoid = character:WaitForChild("Humanoid")
+	local originalTransparency = character:GetAttribute("OriginalTransparency") -- Store the original transparency value
+	
+	local function onTouchPart(part)
+		local humanoid = part.Parent:FindFirstChildWhichIsA("Humanoid")
+		if humanoid and humanoid == character:FindFirstChildOfClass("Humanoid") then
+			local currentTransparency = humanoid.RootPart.Transparency
+			if currentTransparency == 0 then
+				humanoid.RootPart.Transparency = 1 -- Set transparency to 1 (invisible)
+			else
+				humanoid.RootPart.Transparency = 0 -- Set transparency back to 0 (visible)
+			end
+		end
+	end
+	
+	button.Touched:Connect(onTouchPart)
+	
+end
+coroutine.wrap(DJWF_fake_script)()
+local function WVIMCWQ_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local textButton = script.Parent -- Assuming the TextButton is a child of the script
+	
+	local function getClosestPlayer()
+		local closestPlayer
+		local closestDistance = math.huge
+	
+		for _, otherPlayer in ipairs(game.Players:GetPlayers()) do
+			if otherPlayer ~= player and otherPlayer.Character then
+				local otherCharacter = otherPlayer.Character
+				local distance = (otherCharacter.PrimaryPart.Position - character.PrimaryPart.Position).magnitude
+				if distance < closestDistance then
+					closestDistance = distance
+					closestPlayer = otherPlayer
+				end
+			end
+		end
+	
+		return closestPlayer
+	end
+	
+	local function teleportBehindPlayer()
+		local closestPlayer = getClosestPlayer()
+	
+		if closestPlayer then
+			local otherCharacter = closestPlayer.Character
+			local otherHumanoid = otherCharacter:FindFirstChildOfClass("Humanoid")
+			local otherRootPart = otherCharacter:FindFirstChild("HumanoidRootPart")
+	
+			if otherHumanoid and otherRootPart then
+				local direction = (otherRootPart.Position - character.PrimaryPart.Position).unit
+				local teleportPosition = otherRootPart.Position - (direction * 5) -- Teleport behind the player
+	
+				character:SetPrimaryPartCFrame(CFrame.new(teleportPosition))
+			end
+		end
+	end
+	
+	local function onTouch()
+		teleportBehindPlayer()
+	end
+	
+	textButton.MouseButton1Click:Connect(onTouch)
+	
+end
+coroutine.wrap(WVIMCWQ_fake_script)()
+local function OVUZU_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local frame = script.Parent
+	local textButton = frame.Parent.TextButton
+	
+	
+	local function toggleFrameVisibility()
+		frame.Visible = not frame.Visible
+	end
+	
+	
+	textButton.Activated:Connect(toggleFrameVisibility)
+	
+end
+coroutine.wrap(OVUZU_fake_script)()
+local function GIGE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	task.spawn(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pstrw/WhispHub/main/ACB1.lua"))();
+		wait(0.4)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pstrw/WhispHub/main/ACB2.lua"))();
+	end)
+	
+end
+coroutine.wrap(GIGE_fake_script)()
